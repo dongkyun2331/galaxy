@@ -9,10 +9,10 @@ body {
   font-size: 16px;
   width: 168px;
   height: 46px;
-  background-color: #fff;
   border: none;
   border-radius: 46px;
   cursor: pointer;
+  background-color: #fff;
   color: #111;
 }
 
