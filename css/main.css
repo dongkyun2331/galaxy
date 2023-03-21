@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   color: #111;
   font-size: 16px;
 }
@@ -89,7 +89,7 @@ body {
 
 .nav li a::after {
   position: absolute;
-  content: "";
+  content: '';
   width: 0;
   height: 3px;
   background-color: #eb5757;
@@ -129,7 +129,7 @@ body {
 
 .inner {
   height: 500px;
-  background-image: url("/images/slide_bg.png");
+  background-image: url('../images/slide_bg.png');
   background-repeat: no-repeat;
   background-position: center right 30px;
   position: relative;
@@ -278,7 +278,7 @@ body {
 /* banner */
 .banner {
   height: 600px;
-  background-image: url("/images/big_banner_01.png");
+  background-image: url('../images/big_banner_01.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
